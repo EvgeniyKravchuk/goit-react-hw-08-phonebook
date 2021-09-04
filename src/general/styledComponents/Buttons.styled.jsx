@@ -7,4 +7,8 @@ export const Button = styled.button`
   cursor: pointer;
 
   border-radius: 5px;
+
+  &:not(:last-of-type) {
+    margin-right: 20px;
+  }
 `;
